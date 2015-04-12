@@ -1,0 +1,157 @@
+body {
+	font-family: conslas, monospace;
+	font-size: 12px;
+}
+div.page {
+	position: relative;
+	margin: 5px;
+	border: 1px solid grey;
+	width: 1235px;
+	height: 660px;
+	background-color: #B9B9FF;
+}
+
+aside div.aside {
+	width: 120px;
+	height: 660px;
+}
+
+header img {
+	float: left;
+}
+
+header span {
+	line-height: 45px;
+}
+
+header button {
+	margin-left: 5px;
+}
+
+div .aside .list {
+	font-size: 0;
+	padding: 0;
+}
+
+.list li {
+	padding: 0;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+li.bold {
+	font-weight: bold;
+	padding-top: 18px;
+	color: #800040;
+}
+
+div.preview {
+	position: absolute;
+	left: 15%;
+	top: 0.5%;
+	border: 1px solid #9A9A9A;
+	height: 625px;
+	width: 860px;
+	background-color: #CCCCFF;
+}
+
+.preview header {
+	display: block;
+	width: 820;
+	height: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 2px solid #9A9A9A;
+}
+
+.preview h1 {
+	font-size: 25px;
+	padding-left: 5px;
+}
+
+.one {
+	display: block;
+	width: 850px;
+	height: 140px;
+	padding-left: 5px;
+	padding-right: 5px;	
+	font-weight: bolder;
+	font-size: 15PX;
+}
+
+h4 {
+	display: block;
+	background-color: #14273A;
+	color: white;
+	margin: 5px;
+	padding-left: 5px;
+	letter-spacing: 1px;
+}
+
+.one img {
+	float: left;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.one p:first-line {
+	line-height: 35px;
+}
+
+.two, .three, .four {
+	display: block;
+	width: 850px;
+	height: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.two p, .three p, .four p {
+	padding-left: 5px;
+}
+
+.two a, .three a, .four a {
+	padding-left: 5px;
+	line-height: 30px;
+}
+
+.four {
+	border-bottom: 2px solid #9A9A9A;
+}
+
+footer.preview button {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.aside-right {
+	display: block;
+	position: absolute;
+	top: 0.5%;
+	left: 85%;
+	width: 180px;
+	height: 626px;
+	border: 1px solid #9A9A9A;
+	margin-right: 5PX;
+}
+
+.box {
+	position: relative;
+	display: block;
+	border: 1px solid #9A9A9A;
+	line-height: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.aside-right .box:nth-child(2) {
+	height: 60px;
+}
+
+.box input:nth-child(2) {
+	width: 120px;
+	margin-left: 10px;
+}
